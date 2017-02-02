@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:light" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="row vertical-align">
+      <div class="col-sm-3">
+        <img class="logo img-responsive" src="img/atomLogo.png" alt="atom logo">
+      </div>
+      <div class="col-sm-9 text-right">
+        <h1 class="name">Annie Hahn</h1>
+        <h3 class="title">Software Engineer</h3>
+      </div>
+    </header>
+    <figure class="row">
+      <div class="col-sm-12 hero">
+        <img src="img/waves1000x400.jpg" class="img-responsive img-rounded" alt="beach and cliffs">
+      </div>
+    </figure>
+    <header class="row">
+      <div class="col-sm-12 text-left">
+        <h2 class="featured">Featured Work</h2>
+      </div>
+    </header>
+    <main class="row text-center">
+      <section class="col-sm-4 img-circle">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-1">
+          <img src="img/droplets300x250.jpg" class="img-responsive img-rounded project-picture" alt="water droplets">
+        </button>
+        <h3 class="project-title">Project A</h3>
+      </section>
+      <section class="col-sm-4">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-2">
+          <img src="img/dj300x250.jpg" class="img-responsive img-rounded project-picture" alt="DJ">
+        </button>
+        <h3 class="project-title"> Project B</h3>
+      </section>
+      <section class="col-sm-4">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-3">
+          <img src="img/screen300x250.jpg" class="img-responsive img-rounded project-picture" alt="project1">
+        </button>
+        <h3 class="project-title">Project C</h3>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal 1-->
+  <div class="modal fade" id="modal-project-1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Project A</h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2-->
+  <div class="modal fade" id="modal-project-2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Project B</h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3-->
+  <div class="modal fade" id="modal-project-3" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Project C</h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu. Aliquam congue consequat eros, eget lobortis neque porttitor in. Nulla diam nunc, viverra id egestas at, pulvinar ac libero. Fusce mollis odio non dignissim pretium. Maecenas nec erat dui.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
