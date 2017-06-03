@@ -47,8 +47,8 @@ button:hover {
       flex-direction: row;
     }
 
-    .vertical-align > [class^="col-sm-3"],
-    .vertical-align > [class*=" col-sm-3"] {
+    .vertical-align > [class^="col-sm-2"],
+    .vertical-align > [class*=" col-sm-2"] {
       display: flex;
       align-items: center;
       }
@@ -86,4 +86,9 @@ button:hover {
 
 .featured {
     margin-top: 15px;
+}
+
+#github-link {
+    text-decoration: none;
+    color: inherit;
 }
