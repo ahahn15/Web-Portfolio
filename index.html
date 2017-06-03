@@ -36,19 +36,19 @@
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-1">
           <img src="img/droplets300x250.jpg" class="img-responsive img-rounded project-picture" alt="water droplets">
         </button>
-        <h3 class="project-title">Project A</h3>
+        <h3 class="project-title">Arcade Game</h3>
       </section>
       <section class="col-sm-4">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-2">
           <img src="img/dj300x250.jpg" class="img-responsive img-rounded project-picture" alt="DJ">
         </button>
-        <h3 class="project-title"> Project B</h3>
+        <h3 class="project-title">Optimization</h3>
       </section>
       <section class="col-sm-4">
         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-project-3">
           <img src="img/screen300x250.jpg" class="img-responsive img-rounded project-picture" alt="project1">
         </button>
-        <h3 class="project-title">Project C</h3>
+        <h3 class="project-title">Neighborhood Map</h3>
       </section>
     </main>
   </div>
@@ -58,13 +58,22 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Project A</h4>
+          <h2 class="modal-title">Arcade Game</h2>
         </div>
         <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu.</p>
+          <p>This project required developing a Frogger-like arcade game using HTML5 Canvas. The objective of the game is to earn points by reaching the water without colliding into an enemy bug.</p>
+          <h3>How to play:</h3>
+          <p>
+          - Use the up, down, left, right arrow keys to move your character.<br>
+          - You lose 50 points for each collision and gain 50 points for each successful trip to the river.<br>
+          - When you have no more points left, the game is over.<br>
+          - You win the game by earning 1000 points.<br>
+          </p>
+          <p><br>
+            <h4><a href="https://ahahn15.github.io/Arcade-Game/" target="_blank">Play the game</a></h4>
+          </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -75,14 +84,23 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Project B</h4>
+          <h2 class="modal-title">Optimization</h2>
         </div>
         <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu.</p>
+          <p>This project required optimizing the critical rendering path of two given websites to achieve:</p>
+          <p>
+          - a PageSpeed Insights score of at least 90<br>
+          - at least 60 fps rendering performance while scrolling<br>
+          </p>
+          <h3>Details:</h3>
+          <p>Optimization involved using build tools to minify and compress HTML, CSS, and JavaScript files.
+          Code changes included caching reused elements to eliminate repetitive reads and writes to the DOM,
+          preventing creation of redundant variables, and adding CSS styles to improve rendering speeds.</p>
+          <p><br>
+            <h4><a href="https://ahahn15.github.io/Performance-Optimization/" target="_blank">See the optimization project</a></h4>
+          </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+        <div class="modal-footer"></div>
       </div>
     </div>
   </div>
@@ -92,14 +110,25 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Project C</h4>
+          <h2 class="modal-title">Neighborhood Map</h2>
         </div>
         <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus risus est, feugiat ut gravida quis, condimentum ac nibh. Etiam faucibus arcu quis mauris luctus suscipit. Morbi ut venenatis eros. Nunc id nulla non augue porttitor scelerisque. Nullam id egestas mi. Curabitur ligula lorem, porta eget molestie at, aliquet eget leo. Duis vehicula at neque ut gravida. Duis tellus turpis, molestie ut faucibus mollis, luctus id nulla. Duis ultrices gravida quam sed posuere. Sed ultricies lacus et risus commodo, non rutrum ipsum feugiat. Sed placerat est arcu, vel elementum lacus volutpat eu. Aliquam congue consequat eros, eget lobortis neque porttitor in. Nulla diam nunc, viverra id egestas at, pulvinar ac libero. Fusce mollis odio non dignissim pretium. Maecenas nec erat dui.</p>
+          <p>A single-page application featuring a map of a favorite neighborhood, Doolin, Ireland.</p>
+          <p>Features include:</p>
+          <p>
+          - a Google Maps view with map markers to identify popular locations<br>
+          - a search function to easily discover these locations<br>
+          - a listview to support simple browsing of all locations<br>
+          - integration with an additional third-party API to provide information about each locations<br>
+          - a responsive UI
+          </p>
+          <h3>Implementation:</h3>
+          <p>This site uses the KnockoutJS framework to implement observables, event handlers, filters, and to handle other state changes. It uses the Google Maps API along with markers and infowindows, and the Wikimedia API to access Wikipedia content for each location. All API calls are made asynchronously with appropriate error handling.</p>
+          <p><br>
+            <h4><a href="https://ahahn15.github.io/Neighborhood-Map/" target="_blank">Visit the neighborhood map</a></h4>
+          </p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+        <div class="modal-footer"></div>
       </div>
     </div>
   </div>
